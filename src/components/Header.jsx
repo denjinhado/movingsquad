@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 export default function Header () {
+    const [verMenu, setVerMenu] = useState(window.innerWidth > 600);
+
     return (
         <header className="bg">
             <div className="content-header">
@@ -8,7 +11,7 @@ export default function Header () {
                         <img className="logo" src="/img/logo.png" alt="imagen logo" />
                     </a>
                 <div className="right">
-                <nav className="navbar">
+                {verMenu && <nav className="navbar" style={{visibility: 'visible'}}>
                     <a className="link" href="#movingsquad">About</a>
                     <a className="link" href="#service">Services</a>
                     <a href="#contact">
@@ -16,9 +19,9 @@ export default function Header () {
                             <i className="fa-regular fa-envelope"></i>Contact Us!
                         </button>
                     </a>
-            </nav>
+            </nav>}
         </div>
-        <div className="mobile-menu">
+        <div className="mobile-menu" onClick={()=>setVerMenu(!verMenu)}>
             <img src="/img/barras.svg" alt="icono menu responsive" />
         </div>
       </div>
