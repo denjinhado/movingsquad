@@ -72,15 +72,14 @@ export default function Services({services}) {
 </div>
           <div className="price">
             <div className="card">
-              <h2>Starting at:</h2>
+              <h2>Starting as low as:</h2>
               <div className="price-title">
-                <span>$99</span>/h*
+                <span>$90</span>/h*
               </div>
               <div className="included">Two Professional Movers </div>
-              <div className="included">lorem ipsum</div>
               <div className="included">*3 hour minimum</div>
               <a href="#contact">
-              <button className="button-more big">Contact us!</button>
+              <button className="button-more big">Ask for other options!</button>
             </a>
             </div>
           </div>

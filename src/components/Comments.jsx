@@ -19,7 +19,7 @@ export default function Comments({ client }) {
             <div className="best-movers">
             <h2 class="content-title">As featured on:</h2>
             <a class="best-movers-img" href="https://www.localmovers.com/movers-in-san-diego" target="_blank">
-                <img class="" src="./public/img/best-movers.png" alt="" />
+                <img class="" src="./img/best-movers.png" alt="" />
             </a>
             </div>
 

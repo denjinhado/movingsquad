@@ -45,37 +45,6 @@ export default function ContactForm() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="u-container-align-center u-container-style u-layout-cell u-right-cell u-size-31-lg u-size-31-md u-size-31-sm u-size-31-xs u-size-33-xl u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-                                <div className="u-container-layout u-valign-middle-xl u-container-layout-5">
-                                    <div className="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
-                                        <form action="https://forms.nicepagesrv.com/v2/form/process" className="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" style={{ padding: '10px' }} source="email" name="form">
-                                            <div className="u-form-email u-form-group u-form-partition-factor-2">
-                                                <label htmlFor="email-319a" className="u-label u-text-body-alt-color u-label-1">Email</label>
-                                                <input type="email" placeholder="Enter a valid email address" id="email-319a" name="email" className="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required />
-                                            </div>
-                                            <div className="u-form-group u-form-name u-form-partition-factor-2">
-                                                <label htmlFor="name-319a" className="u-label u-text-body-alt-color u-label-2">Name</label>
-                                                <input type="text" placeholder="Enter your Name" id="name-319a" name="name" className="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required />
-                                            </div>
-                                            <div className="u-form-address u-form-group u-form-group-3">
-                                                <label htmlFor="address-452f" className="u-label u-text-body-alt-color u-label-3">Address</label>
-                                                <input type="text" placeholder="Enter your address" id="address-452f" name="address" className="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required />
-                                            </div>
-                                            <div className="u-form-group u-form-message">
-                                                <label htmlFor="message-319a" className="u-label u-text-body-alt-color u-label-4">Message</label>
-                                                <textarea placeholder="Enter your message" rows="4" cols="50" id="message-319a" name="message" className="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required></textarea>
-                                            </div>
-                                            <div className="u-align-left u-form-group u-form-submit">
-                                                <input type="submit" value="Submit" className="u-active-white u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-white u-palette-3-base u-radius-50 u-btn-2" />
-                                                <input type="hidden" name="formServices" value="1eeb47d5-3515-841e-1e4e-0935f814b892" />
-                                            </div>
-                                            <div className="u-form-send-message u-form-send-success" style={{ display: 'none' }}> Thank you! Your message has been sent. </div>
-                                            <div className="u-form-send-error u-form-send-message" style={{ display: 'none' }}> Unable to send your message. Please fix errors then try again. </div>
-                                            <input type="hidden" value="" name="recaptchaResponse" />
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
