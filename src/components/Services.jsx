@@ -77,7 +77,6 @@ export default function Services({services}) {
                 <span>$90</span>/h*
               </div>
               <div className="included">Two Professional Movers </div>
-              <div className="included">*3 hour minimum</div>
               <a href="#contact">
               <button className="button-more big">Ask for other options!</button>
             </a>
