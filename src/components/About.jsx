@@ -1,11 +1,13 @@
 import { useState } from "react"
 
 export default function AboutUs() {
-    const [changeText] = useState(window.innerWidth > 600);
+    /* const [changeText] = useState(window.innerWidth > 600); */
 
     return (
         <main id="movingsquad" className="movingsquad padding">
-            {changeText ? <h2 className="content-title">The Moving Squad Experience</h2> : <h2 className="content-title">Experience</h2>}
+            {/* {changeText ? <h2 className="content-title">The Moving Squad Experience</h2> : <h2 className="content-title">Experience</h2>} */}
+            <h2 className="content-title content-title-desktop">The Moving Squad Experience</h2>
+            <h2 className="content-title content-title-mobile">Experience</h2>       
             <div className="movingsquad-container">
                 <div className="service-work">
                     <img 

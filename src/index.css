@@ -178,6 +178,9 @@ p {
   transition: all 0.4s;
 }
 /* About */
+.content-title-mobile{
+  display: none;
+}
 .content-title {
   .content-desc {
     width: 100%;
@@ -806,6 +809,12 @@ footer {
         font-size: 3.5rem;
       }
     }
+  }
+  .content-title-desktop{
+    display: none;
+  }
+  .content-title-mobile{
+    display: block;
   }
   .best-movers {
     text-align: center;
