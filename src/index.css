@@ -768,16 +768,43 @@ footer {
       font-size: 6rem;
     }
   }
+  .content-title::before, .content-title::after{
+    border-bottom: none;
+    display: none;
+  }
+  .content-title{
+    padding-bottom: 0;
+    display: block;
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    margin-bottom: 0 !important;
+  }
+  .movingsquad{
+    text-align: center;
+  }
 
   .movingsquad-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
     .service-work {
       margin-top: 2rem;
     }
     .service-img {
       height: 100%;
-      width: 15rem;
+      width: 20rem;
+    }
+    .service-work{
+      background-color: transparent;
+      border: none;
+      padding: 0;
+    }
+    .about{
+      display: flex;
+      flex-direction: column;
+      h3{
+        font-size: 3.5rem;
+      }
     }
   }
   .best-movers {
