@@ -817,12 +817,14 @@ footer {
     display: block;
   }
   .best-movers {
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-items: center;
+  }
+  .best-movers > h2{
+    padding: 3rem 0 0;
   }
   .best-movers-img {
     text-align: center;
@@ -830,18 +832,54 @@ footer {
     justify-items: center;
     align-items: center;
     margin: 0;
-    .img {
-      width: 1rem;
+    img {
+      width: 100%;
     }
+  }
+  .link-ref{
+    border: 1px solid;
+    width: 90%;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    display: flex;
+    margin: 0 auto;
+    h3{
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+  }
+  .link-ref:hover{
+    color: white;
+  }
+  .yelp-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 0;
   }
   .reviews {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
   }
   .review-card {
-    width: 20rem;
-    height: 20rem;
+    width: 95%;
+    height: 15rem;
+    padding: 1.5rem 0.5rem;
   }
+  .review-card:nth-child(n+4){
+    display: none;
+  }
+  .review-card:hover{
+    transform: scale(100%);
+  }
+  .review-text{
+    font-size: 80%;
+    color: #5c5858;
+  }
+
 }
 
 /*SECTION CONTACT US*/
