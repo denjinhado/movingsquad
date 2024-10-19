@@ -883,6 +883,75 @@ footer {
 }
 
 /*SECTION CONTACT US*/
+.contactUs{
+  background-image: url(../public/img/17.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.575); /* Color negro con 50% de opacidad */
+  background-blend-mode: overlay; /* Otras opciones: multiply, screen, etc. */
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  color: white;
+  h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+.contactAt{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1.5rem auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.6rem;
+}
+
+.contactInfo > .numberEmail > p{
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.svgSolid{
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+}
+.numberEmail{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.address{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.businessHours{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  h3{
+    margin: 0;
+  }
+}
 
 /*begin-commonstyles library*/ /*!
  * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)

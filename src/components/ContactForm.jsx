@@ -1,7 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ContactForm() {
     return (
-        <section className="u-clearfix u-image u-shading u-section-3" id="carousel_4f77" data-image-width="1416" data-image-height="1080">
+        /* <section className="u-clearfix u-image u-shading u-section-3" id="carousel_4f77" data-image-width="1416" data-image-height="1080">
             <div id="contact" className="u-clearfix u-sheet u-valign-middle u-sheet-1">
                 <div className="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
                     <div className="u-layout">
@@ -48,6 +49,30 @@ export default function ContactForm() {
                         </div>
                     </div>
                 </div>
+            </div>
+        </section> */
+        <section className="contactUs">
+            <h2 className="content-title">Contact Us</h2>
+            <div className="contactAt">
+            <h3>Contact Us At:</h3>
+                <div className="contactInfo">
+                    <div className="numberEmail">
+                        <img src="public/img/phone-solid.svg" alt="" className="svgSolid"/>
+                        <p>619-856-1737</p>
+                    </div>
+                    <div className="numberEmail">
+                    <img src="public/img/envelope-solid.svg" alt="" className="svgSolid"/>
+                        <p>themovingsquadsd@gmail.com</p>
+                    </div>
+                </div>                
+            </div>
+            <div className="address">
+                <h3>Address:</h3>
+                <p>San Diego, California</p>
+            </div>
+            <div className="businessHours">
+                <h3>Business Hours:</h3>
+                <p>All day everyday, you can count on us!</p>
             </div>
         </section>
     );
