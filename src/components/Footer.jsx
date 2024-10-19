@@ -16,10 +16,35 @@ export default function Footer() {
       <footer className="footer1">
         <div className="footer-top">
           <div className="container">
-            <div className="col1">
-              <a href="#" className="brand">
+          <a href="#" className="brand">
                 Moving Squad
               </a>
+              <div className="col2">
+              <ul className="menu">
+                <li>
+                  <h4>About</h4>
+                </li>
+                <li>
+                  <a href="#">Price</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+
+              </ul>
+              <ul className="menu">
+                <li>
+                  <h4>Contact</h4>
+                </li>
+                <li>
+                  <a href="#">Help</a>
+                </li>
+                <li>
+                  <a href="#">Location</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col1">
               <ul className="media-icons">
                 <li>
                   <a href="#">
@@ -35,31 +60,6 @@ export default function Footer() {
                   <a href="#">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col2">
-              <ul className="menu">
-                <li>
-                  <h4>About</h4>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Price</a>
-                </li>
-
-              </ul>
-              <ul className="menu">
-                <li>
-                  <h4>Contact</h4>
-                </li>
-                <li>
-                  <a href="#">Help</a>
-                </li>
-                <li>
-                  <a href="#">Location</a>
                 </li>
               </ul>
             </div>

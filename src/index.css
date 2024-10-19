@@ -669,6 +669,122 @@ footer {
   }
 }
 
+.contactUs{
+  background-image: url(../public/img/17.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.575); /* Color negro con 50% de opacidad */
+  background-blend-mode: overlay; /* Otras opciones: multiply, screen, etc. */
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  color: white;
+  padding-bottom: 2rem;
+  h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+.contactAt{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1.3rem;
+}
+
+.contactInfo > .numberEmail > p{
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.svgSolid{
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+}
+.numberEmail{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.address{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.contactUs > .address > p{
+  font-size: 1.3rem;
+}
+.businessHours{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  h3{
+    margin: 0;
+  }
+}
+.contactUs > .businessHours > p{
+  font-size: 1.3rem;
+}
+
+/* FOOTER */
+
+.footer-top > .container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container > .brand{
+  margin-bottom: 0;
+  text-align: center;
+}
+.media-icons{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.col2{
+  text-align: center;
+}
+
+.footer-bottom > .container{
+  flex-direction: column;
+}
+
+.footer-bottom > .container > p{
+  margin-bottom: 0;
+}
+
+.footer1 .col2{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.col1 > .media-icons{
+  justify-content: center;
+}
+
 /* tablet */
 
 /* phones */
@@ -879,77 +995,41 @@ footer {
     color: #5c5858;
   }
 
-}
+  /* CONTACT */
 
-/*SECTION CONTACT US*/
-.contactUs{
-  background-image: url(../public/img/17.jpg);
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.575); /* Color negro con 50% de opacidad */
-  background-blend-mode: overlay; /* Otras opciones: multiply, screen, etc. */
-  display: flex;
-  flex-direction: column;
-  gap: 1.3rem;
-  color: white;
-  padding-bottom: 2rem;
-  h3{
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin: 0;
+  .contactUs{
+    h3{
+      font-size: 1.1rem;
+    }
   }
-}
+  .numberEmail{
+    gap: 1rem;
+  }
 
-.contactAt{
-  display: flex;
-  flex-direction: column;
-  width: 95%;
-  margin: 1.5rem auto 0 auto;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-}
-.contactInfo{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 0.6rem;
-}
+  .contactInfo{
+    gap: 1rem;
+  }
+  .contactInfo > .numberEmail > p{
+    font-size: 0.95rem;
+  }
+  .contactUs > .address > p{
+    font-size: 1rem;
+  }
+  .contactUs > .businessHours > p{
+    font-size: 1rem;
+  }
 
-.contactInfo > .numberEmail > p{
-  margin: 0;
-  font-weight: 500;
-  font-size: 0.95rem;
-}
-.svgSolid{
-  width: 25px;
-  height: 25px;
-  filter: invert(100%);
-}
-.numberEmail{
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
+  /* FOOTER */
+  .col1 > .media-icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0;
+  }
 
-.address{
-  display: flex;
-  width: 95%;
-  margin: 0 auto;
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
-}
-.businessHours{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  text-align: center;
-  h3{
-    margin: 0;
+  .service-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
   }
 }
 
@@ -46689,7 +46769,6 @@ footer .container {
   position: relative;
 }
 .footer1 .footer-top .container,
-.footer1 .col2,
 .footer1 .footer-bottom .container,
 .footer2 .container,
 .footer3 .container {
