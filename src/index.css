@@ -629,7 +629,6 @@ p {
   font-size: 2rem;
 }
 footer {
-  margin-top: 2rem;
   background-color: #27374d;
   p {
     display: flex;
@@ -896,6 +895,7 @@ footer {
   flex-direction: column;
   gap: 1.3rem;
   color: white;
+  padding-bottom: 2rem;
   h3{
     font-size: 1.1rem;
     font-weight: 600;
