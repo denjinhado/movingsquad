@@ -58,15 +58,16 @@ export default function Services({services}) {
             </div>
           </div>
         </div>
-      </section><section className='price-bgimg'>
+      </section>
+      <section className='price-bgimg'>
           <div class="moving-benefits">
             <h2 class="content-title">Why Choose Us?</h2>
-            <ul>
-              <li><span>Experienced Movers:</span> Skilled team ready for all types of moves—apartments, houses, offices, and more.</li>
-              <li><span>Stress-Free Service:</span> Relax while we handle everything: packing, loading, unloading, and unpacking.</li>
-              <li><span>Competitive Rates:</span> Affordable moving services without compromising quality. Get your free quote!</li>
-              <li><span>Reliable and Trustworthy:</span> Your satisfaction is our priority; we treat your belongings with care.</li>
-              <li><span>All-Inclusive Supplies:</span> Moving straps, elastic bands, blankets, dollies, tools, and shrink wrap included!</li>
+            <ul className='ulMoving'>
+              <li><span>Experienced Movers</span><span className='hiddenli'>: Skilled team ready for all types of moves—apartments, houses, offices, and more.</span></li>
+              <li><span>Stress-Free Service</span><span className="hiddenli">: Relax while we handle everything: packing, loading, unloading, and unpacking.</span></li>
+              <li><span>Competitive Rates</span><span className="hiddenli">: Affordable moving services without compromising quality. Get your free quote!</span></li>
+              <li><span>Reliable and Trustworthy</span><span className="hiddenli">: Your satisfaction is our priority; we treat your belongings with care.</span></li>
+              <li><span>All-Inclusive Supplies</span><span className="hiddenli">: Moving straps, elastic bands, blankets, dollies, tools, and shrink wrap included!</span></li>
             </ul>
           </div>
           <div className="price">

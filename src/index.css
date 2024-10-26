@@ -995,6 +995,44 @@ footer {
     color: #5c5858;
   }
 
+  /* PRICE */
+  .price-bgimg{
+    padding: 5rem 5rem 0;
+  }
+  .moving-benefits{
+    width: 95%;
+    li{
+      font-size: 1.8rem;
+    }
+  }
+  .price-bgimg > .moving-benefits > ul{
+    line-height: 2;
+    margin-bottom: 2rem;
+  }
+
+  .moving-benefits > h2{
+    padding: 0 1.5rem 2rem;
+  }
+
+  .hiddenli{
+    display: none;
+  }
+
+  .price-bgimg > .price > .card > h2{
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+
+  .card{
+    justify-content: space-around;
+  }
+
+  .price{
+    .price-title{
+      margin: 0 auto 1rem;
+    }
+  }
+
   /* CONTACT */
 
   .contactUs{
