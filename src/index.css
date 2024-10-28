@@ -319,7 +319,6 @@ p {
   text-align: center;
   background-color: #eff8ff;
   border-radius: 15px;
-  width: 40rem;
   height: 60rem;
   display: flex;
   flex-direction: column;
@@ -339,17 +338,26 @@ p {
   height: 100%;
   width: 100%;
   justify-content: space-between;
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   h2 {
     background-color: var(--primary-blue);
     width: 100%;
     color: #eff8ff;
-    margin-top: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
   }
   .price-title {
-    font-size: 6rem;
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
     border-bottom: #000 2px solid;
     width: 95%;
-    margin: auto;
+    margin: 1rem auto;
   }
 }
 .bg-service {
@@ -361,11 +369,10 @@ p {
   margin: 2rem auto;
   font-size: 18px;
   padding: 15px;
-  border: 2px solid #000000;
-  color: #000000;
+  color: white;
+  border: 1px solid black;
+  background-color: var(--primary-blue);
   font-weight: 700;
-  background: none;
-  background-color: none;
   border-radius: 6px;
   text-align: center;
   text-transform: uppercase;
@@ -873,14 +880,14 @@ footer {
     text-align: center;
     background-color: #eff8ff;
     border-radius: 15px;
-    width: 25rem;
+    width: 100%;
     height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     .price-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     span {
       font-size: 6rem;
@@ -997,12 +1004,20 @@ footer {
 
   /* PRICE */
   .price-bgimg{
-    padding: 5rem 5rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  .included{
+    font-size: 1.87rem;
   }
   .moving-benefits{
-    width: 95%;
+    width: 90%;
     li{
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
   .price-bgimg > .moving-benefits > ul{
@@ -1011,7 +1026,7 @@ footer {
   }
 
   .moving-benefits > h2{
-    padding: 0 1.5rem 2rem;
+    padding: 0 1.5rem;
   }
 
   .hiddenli{
@@ -1019,12 +1034,11 @@ footer {
   }
 
   .price-bgimg > .price > .card > h2{
-    text-transform: uppercase;
-    margin-top: 0;
+    font-size: 1.71rem;
   }
 
   .card{
-    justify-content: space-around;
+    column-gap: 0;
   }
 
   .price{
