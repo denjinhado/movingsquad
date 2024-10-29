@@ -314,6 +314,9 @@ p {
     color: var(--primary-blue);
   }
 }
+.moving-benefits > .ulMoving > li > .hiddenli{
+  font-weight: 200;
+}
 .price {
   margin-top: 3rem;
   text-align: center;
