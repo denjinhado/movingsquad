@@ -6,12 +6,13 @@ export default function Services({services}) {
         <><section id='service'>
         <h2 class="content-title">What We Do</h2>
         <Carousel id="carouselExampleCaptions" style={{
-          maxWidth: '70%',
+          /* maxWidth: '70%', */
           margin: '0 auto',
           border: '10px solid', /* El grosor del borde */
           borderImage: 'linear-gradient(90deg, #3d6098, #f04b4c) 1', /* Gradiente de rojo a azul */
           borderRadius: '15px', /* Bordes redondeados opcionales */
           color: 'black',
+          marginTop: '2rem'
         }}>
           {services.map((service, index) => (
             <Carousel.Item key={service.id}>

@@ -709,6 +709,9 @@ footer {
     transition: all 0.4s;
   }
 }
+#service > #carouselExampleCaptions{
+  max-width: 70%;
+}
 /*CONTACT*/
 
 .contact-info {
@@ -925,6 +928,9 @@ footer {
   .moving-benefits {
     width: 15rem;
     text-align: left;
+  }
+  #service > #carouselExampleCaptions{
+    max-width: 95%;
   }
   .price {
     margin: 0 auto;
